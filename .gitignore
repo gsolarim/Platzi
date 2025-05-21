@@ -1,0 +1,48 @@
+#######################################################
+# 📁 CARPETAS .arts Y .resources EN CUALQUIER SUBCARPETA
+# Ignora carpetas internas que no deben subirse
+#######################################################
+
+**/.arts/          # Carpeta de recursos artísticos o de apoyo
+**/.resources/     # Archivos de recursos internos, no públicos
+
+#######################################################
+# ☕ ARCHIVOS COMUNES A PROYECTOS JAVA
+#######################################################
+
+*.class            # Archivos compilados de Java
+*.ear              # Enterprise archives
+*.jar              # Archivos Java empaquetados
+*.war              # Web archives
+
+#######################################################
+# 🧪 CONFIGURACIÓN DE EDISORES DE CÓDIGO
+#######################################################
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+#######################################################
+# 🧹 ARCHIVOS DEL SISTEMA OPERATIVO
+#######################################################
+
+.DS_Store          # macOS: configuración visual de carpetas
+Thumbs.db          # Windows: miniaturas de imágenes
+
+#######################################################
+# 📝 ARCHIVOS TEMPORALES Y BACKUPS
+#######################################################
+
+*.bak              # Archivos de respaldo manual
+*.log              # Logs generados por aplicaciones o tests
+*.tmp              # Archivos temporales
+*~                 # Respaldos automáticos de algunos editores (Vim, Emacs, etc.)
