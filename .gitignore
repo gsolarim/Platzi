@@ -3,10 +3,8 @@
 # Ignora carpetas internas que no deben subirse, en raíz o subdirectorios
 #######################################################
 
-.arts/             # Ignora la carpeta .arts en la raíz
-.resources/        # Ignora la carpeta .resources en la raíz
-*/.arts/           # Ignora la carpeta .arts en subdirectorios inmediatos
-*/.resources/      # Ignora la carpeta .resources en subdirectorios inmediatos
+**/.arts/          # Ignora cualquier carpeta .arts sin importar el nivel
+**/.resources/     # Ignora cualquier carpeta .resources sin importar el nivel
 
 #######################################################
 # ☕ ARCHIVOS COMUNES A PROYECTOS JAVA
