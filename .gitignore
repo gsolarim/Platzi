@@ -1,10 +1,12 @@
 #######################################################
 # 📁 CARPETAS .arts Y .resources EN CUALQUIER SUBCARPETA
-# Ignora carpetas internas que no deben subirse
+# Ignora carpetas internas que no deben subirse, en raíz o subdirectorios
 #######################################################
 
-**/.arts/          # Carpeta de recursos artísticos o de apoyo
-**/.resources/     # Archivos de recursos internos, no públicos
+.arts/             # Ignora la carpeta .arts en la raíz
+.resources/        # Ignora la carpeta .resources en la raíz
+*/.arts/           # Ignora la carpeta .arts en subdirectorios inmediatos
+*/.resources/      # Ignora la carpeta .resources en subdirectorios inmediatos
 
 #######################################################
 # ☕ ARCHIVOS COMUNES A PROYECTOS JAVA
